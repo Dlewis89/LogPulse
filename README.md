@@ -49,7 +49,7 @@ LogPulse expects logs in the following **pipe-delimited format**:
 git clone https://github.com/dlewis89/LogPulse.git
 cd LogPulse
 dotnet run --project LogPulse -- <path-to-log-file>
-
+```
 ## License
 
 This project is licensed under the MIT License.
