@@ -1,0 +1,7 @@
+2025-09-10 14:32:11 | INFO  | AuthService      | User login succeeded userId=42
+2025-09-10 14:32:15 | WARN  | AuthService      | Password attempt failed userId=42
+2025-09-10 14:32:18 | ERROR | AuthService      | Account locked userId=42
+2025-09-10 14:35:01 | INFO  | OrderService     | Order created orderId=981
+2025-09-10 14:35:03 | ERROR | OrderService     | Payment declined orderId=981
+2025-09-10 14:35:04 | ERROR | OrderService     | Payment declined orderId=981
+2025-09-10 14:40:22 | INFO  | InventoryService | Stock updated productId=77

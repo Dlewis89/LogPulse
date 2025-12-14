@@ -1,0 +1,16 @@
+
+**/bin/
+**/obj/
+
+*.user
+*.suo
+*.DS_Store
+.vs/
+.idea/
+.vscode/
+
+*.nupkg
+packages/
+
+*.log
+*.tmp
