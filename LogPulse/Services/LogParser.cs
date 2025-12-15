@@ -16,7 +16,7 @@ public class LogParser
         string service = logData[2].Trim();
         string message = logData[3].Trim();
 
-        if (!DateTimeOffset.TryParseExact(timestampStr, "yyyy-MM-ddTHH:mm:ss", null, System.Globalization.DateTimeStyles.None, out var logDateTime)) return null;
+        if (!DateTimeOffset.TryParseExact(timestampStr, "yyyy-MM-dd HH:mm:ss", null, System.Globalization.DateTimeStyles.None, out var logDateTime)) return null;
         if (!Enum.TryParse<LogLevel>(levelStr, true, out var level)) return null;
             
         return new LogEntry(
