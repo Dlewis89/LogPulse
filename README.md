@@ -26,9 +26,9 @@ LogPulse expects logs in the following **pipe-delimited format**:
 
 **Example:**
 
-2025-12-13T08:00:00|INFO|AuthService|User logged in
-2025-12-13T08:05:00|WARN|OrderService|Order delayed
-2025-12-13T08:10:00|ERROR|AuthService|Login failed
+- 2025-12-13T08:00:00|INFO|AuthService|User logged in
+- 2025-12-13T08:05:00|WARN|OrderService|Order delayed
+- 2025-12-13T08:10:00|ERROR|AuthService|Login failed
 
 ---
 
