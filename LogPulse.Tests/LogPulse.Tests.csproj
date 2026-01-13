@@ -1,7 +1,7 @@
 <Project Sdk="Microsoft.NET.Sdk">
 
   <PropertyGroup>
-    <TargetFramework>net8.0</TargetFramework>
+    <TargetFramework>net10.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>
     <Nullable>enable</Nullable>
 
@@ -24,6 +24,8 @@
 
   <ItemGroup>
     <ProjectReference Include="..\LogPulse\LogPulse.csproj" />
+    <ProjectReference Include="..\LogPulse.Core\LogPulse.Core.csproj" />
+    <ProjectReference Include="..\LogPulse.CLI\LogPulse.CLI.csproj" />
   </ItemGroup>
 
 </Project>

@@ -1,5 +1,5 @@
 using Xunit;
-using LogPulse.Models;
+using LogPulse.Core.Models;
 using LogPulse.Output;
 using System;
 using System.Collections.Generic;
