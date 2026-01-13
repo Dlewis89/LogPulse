@@ -1,4 +1,4 @@
-namespace LogPulse.Models;
+namespace LogPulse.Core.Models;
 
 public class LogSummary
 {
