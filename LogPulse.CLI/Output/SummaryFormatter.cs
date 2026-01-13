@@ -1,4 +1,4 @@
-using LogPulse.Models;
+using LogPulse.Core.Models;
 using System.Text;
 
 namespace LogPulse.Output;

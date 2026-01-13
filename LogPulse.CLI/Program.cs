@@ -1,5 +1,5 @@
-﻿using LogPulse.Models;
-using LogPulse.Services;
+﻿using LogPulse.Core.Models;
+using LogPulse.Core.Services;
 using LogPulse.Output;
 using System.Text;
 

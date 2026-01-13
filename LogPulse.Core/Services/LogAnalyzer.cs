@@ -1,6 +1,6 @@
-using LogPulse.Models;
+using LogPulse.Core.Models;
 
-namespace LogPulse.Services;
+namespace LogPulse.Core.Services;
 
 public class LogAnalyzer
 {
