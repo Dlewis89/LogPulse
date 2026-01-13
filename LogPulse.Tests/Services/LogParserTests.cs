@@ -1,6 +1,6 @@
 using Xunit;
-using LogPulse.Services;
-using LogPulse.Models;
+using LogPulse.Core.Services;
+using LogPulse.Core.Models;
 
 namespace LogPulse.Tests.Services;
 
@@ -11,7 +11,7 @@ public class LogParserTests
     {
         // Arrange
         var parser = new LogParser();
-        var logLine = "2025-12-13T14:20:00|Info|AuthService|User logged in";
+        var logLine = "2025-12-13 14:20:00 | Info | AuthService | User logged in";
 
         // Act
         var result = parser.Parse(logLine);

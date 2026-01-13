@@ -1,6 +1,6 @@
 using Xunit;
-using LogPulse.Models;
-using LogPulse.Services;
+using LogPulse.Core.Models;
+using LogPulse.Core.Services;
 using System;
 using System.Collections.Generic;
 
